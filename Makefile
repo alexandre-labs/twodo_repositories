@@ -1,2 +1,2 @@
 test:
-	@py.test --cov=domain -sqxvv --cov-fail-under=90
+	@py.test --cov=twodo_repositories --cov-report=html -sqxvv --cov-fail-under=90
