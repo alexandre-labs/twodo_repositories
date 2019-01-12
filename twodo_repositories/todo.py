@@ -73,6 +73,7 @@ class IToDoRepository(abc.ABC):
 
             todo_data: IToDoData
         """
+        # pragma: no cover
         return NotImplemented  # type: ignore
 
     @abc.abstractmethod

@@ -73,7 +73,7 @@ class IPersonRepository(abc.ABC):
 
             person_data: IPersonData
         """
-        pass
+        return NotImplemented  # type: ignore
 
     @abc.abstractmethod
     def retrieve(self, person_data: IPersonData) -> IPersonData:
@@ -96,7 +96,7 @@ class IPersonRepository(abc.ABC):
 
             person_data: IPersonData
         """
-        pass
+        return NotImplemented  # type: ignore
 
     @abc.abstractmethod
     def update(self, person_data: IPersonData) -> IPersonData:
@@ -120,7 +120,7 @@ class IPersonRepository(abc.ABC):
             person_data:
                 The updated person data
         """
-        pass
+        return NotImplemented  # type: ignore
 
     @abc.abstractmethod
     def delete(self, person_data: IPersonData) -> None:
@@ -143,4 +143,4 @@ class IPersonRepository(abc.ABC):
 
             None
         """
-        pass
+        return NotImplemented  # type: ignore
