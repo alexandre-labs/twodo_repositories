@@ -5,7 +5,7 @@ is private.
 import abc
 
 
-class Repository(abc.ABC):
+class IRepository(abc.ABC):
     """A repository is an interface between a domain entity and a data system.
     A repository should implement (even with a pass) a CRUD (Create, Retrieve, Update and Delete)
     set of functions.
